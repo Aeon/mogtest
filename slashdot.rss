@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://purl.org/rss/1.0/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:syn="http://purl.org/rss/1.0/modules/syndication/" xmlns:admin="http://webns.net/mvcb/" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0">
+
+<channel rdf:about="http://slashdot.org/">
+<title>Slashdot</title>
+<link>http://slashdot.org/</link>
+<description>News for nerds, stuff that matters</description>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright 1997-2009, Geeknet, Inc.  All Rights Reserved.</dc:rights>
+<dc:date>2010-07-02T06:40:19+00:00</dc:date>
+<dc:publisher>Geeknet, Inc.</dc:publisher>
+<dc:creator>help@slashdot.org</dc:creator>
+<dc:subject>Technology</dc:subject>
+<syn:updatePeriod>hourly</syn:updatePeriod>
+<syn:updateFrequency>1</syn:updateFrequency>
+<syn:updateBase>1970-01-01T00:00+00:00</syn:updateBase>
+<items>
+ <rdf:Seq>
+  <rdf:li rdf:resource="http://games.slashdot.org/story/10/07/02/0322212/How-Game-Gimmicks-Break-Immersion?from=rss" />
+  <rdf:li rdf:resource="http://tech.slashdot.org/story/10/07/02/020229/Qualcomm-Makes-Open-Source-3D-Snapdragon-Driver?from=rss" />
+  <rdf:li rdf:resource="http://yro.slashdot.org/story/10/07/02/0027237/RIAA-Calls-YouTube-Viacom-Decision-Bad-Public-Policy?from=rss" />
+  <rdf:li rdf:resource="http://hardware.slashdot.org/story/10/07/01/2321230/The-Ignominious-Fall-of-Dell?from=rss" />
+  <rdf:li rdf:resource="http://science.slashdot.org/story/10/07/01/2153202/Stop-the-Math-Presss-Presses-mdash-Knuth-Announces-iTex?from=rss" />
+  <rdf:li rdf:resource="http://politics.slashdot.org/story/10/07/01/2130238/Do-Scientists-Understand-the-Public?from=rss" />
+  <rdf:li rdf:resource="http://tech.slashdot.org/story/10/07/01/2043245/Solar-Powered-Flight-Grounded-By-Equipment-Bug?from=rss" />
+  <rdf:li rdf:resource="http://news.slashdot.org/story/10/07/01/208222/Zoho-Dont-Need-No-Stinking-PhD-Programmers?from=rss" />
+  <rdf:li rdf:resource="http://ask.slashdot.org/story/10/07/01/2022247/Best-Format-For-OS-X-and-Linux-HDD?from=rss" />
+  <rdf:li rdf:resource="http://tech.slashdot.org/story/10/07/01/1914215/HDBaseT-Supporters-Hope-To-Kiss-HDMI-Goodbye?from=rss" />
+  <rdf:li rdf:resource="http://tech.slashdot.org/story/10/07/01/1854230/Microsoft-Busting-Its-Own-BrowserOS-Myth?from=rss" />
+  <rdf:li rdf:resource="http://ask.slashdot.org/story/10/07/01/188241/What-To-Do-With-Old-80211b-Equipment?from=rss" />
+  <rdf:li rdf:resource="http://science.slashdot.org/story/10/07/01/1815204/Things-You-Drink-Can-Be-Used-To-Track-You?from=rss" />
+  <rdf:li rdf:resource="http://science.slashdot.org/story/10/07/01/181215/NASA-Sets-Dates-For-Space-Shuttle-Finale?from=rss" />
+  <rdf:li rdf:resource="http://yro.slashdot.org/story/10/07/01/1721224/Unique-ID-In-India-Causes-Fear-of-the-Beast?from=rss" />
+ </rdf:Seq>
+</items>
+<image rdf:resource="http://a.fsdn.com/sd/topics/topicslashdot.gif" />
+<textinput rdf:resource="http://slashdot.org/search.pl" />
+<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rdf+xml" href="http://rss.slashdot.org/Slashdot/slashdot" /><feedburner:info uri="slashdot/slashdot" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /></channel>
+
+<image rdf:about="http://a.fsdn.com/sd/topics/topicslashdot.gif">
+<title>Slashdot</title>
+<url>http://a.fsdn.com/sd/topics/topicslashdot.gif</url>
+<link>http://slashdot.org/</link>
+</image>
+
+<item rdf:about="http://games.slashdot.org/story/10/07/02/0322212/How-Game-Gimmicks-Break-Immersion?from=rss">
+<title>How Game Gimmicks Break Immersion</title>
+<link>http://rss.slashdot.org/~r/Slashdot/slashdot/~3/MJ7sw1XtpPg/How-Game-Gimmicks-Break-Immersion</link>
+<description>The Moving Pixels blog has brief discussion of how gimmicky game mechanics often break a player's sense of immersion, making it painfully obvious that he's simply jumping through carefully planned hoops set up by the developers. The author takes an example from Singularity, which has a weapon that can time-shift objects between a pristine, functional state and a broken, decayed state. Quoting:
+"The core issue with this time control device is that it's just not grand and sweeping enough. It doesn't feel like it's part of a world gone mad. Instead it's just a gameplay tool. You can only use it on certain things in certain places. You can 'un-decay' this chalkboard but not that desk. You can dissolve that piece of cover but not most of the walls in the game. The ultimate failure of such cheap tricks is that they make the game world less immersive rather than more compelling. The world gets divided into those few things that I can time shift, that different set of things I can levitate, and that majority of things that I can't interact with at all. ... I'm painfully aware that all that I'm really doing is pushing the right button at the right place and time. Sure, that's what many games are when you get down to it, but part of the artistry of game design comes from trying to hide this fact."&lt;p&gt;&lt;a href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fgames.slashdot.org%2Fstory%2F10%2F07%2F02%2F0322212%2FHow-Game-Gimmicks-Break-Immersion" target="_blank" title="Share on Facebook"&gt;&lt;img src="http://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+   
+      &lt;a href="http://twitter.com/home?status=How+Game+Gimmicks+Break+Immersion%3A+http%3A%2F%2Fbit.ly%2FaGz4sR" target="_blank" title="Share on Twitter"&gt;&lt;img src="http://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="http://games.slashdot.org/story/10/07/02/0322212/How-Game-Gimmicks-Break-Immersion?from=rss"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="http://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=1705840&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="http://feedads.g.doubleclick.net/~at/ize6nQRQA8F1_-fGXfqQ2dTG0Ro/0/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~at/ize6nQRQA8F1_-fGXfqQ2dTG0Ro/0/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://feedads.g.doubleclick.net/~at/ize6nQRQA8F1_-fGXfqQ2dTG0Ro/1/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~at/ize6nQRQA8F1_-fGXfqQ2dTG0Ro/1/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/MJ7sw1XtpPg" height="1" width="1"/&gt;</description>
+<dc:creator>Soulskill</dc:creator>
+<dc:date>2010-07-02T05:09:00+00:00</dc:date>
+<dc:subject>games</dc:subject>
+<slash:department>they-can't-all-be-portal</slash:department>
+<slash:section>games</slash:section>
+<slash:comments>25</slash:comments>
+<slash:hit_parade>25,23,16,15,5,2,1</slash:hit_parade>
+<feedburner:origLink>http://games.slashdot.org/story/10/07/02/0322212/How-Game-Gimmicks-Break-Immersion?from=rss</feedburner:origLink></item>
+
+<item rdf:about="http://tech.slashdot.org/story/10/07/02/020229/Qualcomm-Makes-Open-Source-3D-Snapdragon-Driver?from=rss">
+<title>Qualcomm Makes Open-Source 3D Snapdragon Driver</title>
+<link>http://rss.slashdot.org/~r/Slashdot/slashdot/~3/FXw48hFSIoQ/Qualcomm-Makes-Open-Source-3D-Snapdragon-Driver</link>
+<description>An anonymous reader writes "Qualcomm today posted the source code to a Linux kernel driver for 2D/3D support on its OpenGL ES Core found on Snapdragon-based phones like the Nexus One. The company is trying to get this driver into the mainline Linux kernel, but it turns out that the user-space driver is still not open source, which has resulted in some problems already. The ongoing discussion can be found on FreeDesktop.org."&lt;p&gt;&lt;a href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Ftech.slashdot.org%2Fstory%2F10%2F07%2F02%2F020229%2FQualcomm-Makes-Open-Source-3D-Snapdragon-Driver" target="_blank" title="Share on Facebook"&gt;&lt;img src="http://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+   
+      &lt;a href="http://twitter.com/home?status=Qualcomm+Makes+Open-Source+3D+Snapdragon+Driver%3A+http%3A%2F%2Fbit.ly%2F9yhOm3" target="_blank" title="Share on Twitter"&gt;&lt;img src="http://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="http://tech.slashdot.org/story/10/07/02/020229/Qualcomm-Makes-Open-Source-3D-Snapdragon-Driver?from=rss"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="http://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=1705780&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="http://feedads.g.doubleclick.net/~at/Z5_gTNU8pE0H_g_iuqFjlEBVRpg/0/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~at/Z5_gTNU8pE0H_g_iuqFjlEBVRpg/0/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://feedads.g.doubleclick.net/~at/Z5_gTNU8pE0H_g_iuqFjlEBVRpg/1/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~at/Z5_gTNU8pE0H_g_iuqFjlEBVRpg/1/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/FXw48hFSIoQ" height="1" width="1"/&gt;</description>
+<dc:creator>timothy</dc:creator>
+<dc:date>2010-07-02T03:47:00+00:00</dc:date>
+<dc:subject>graphics</dc:subject>
+<slash:department>happy-dribs-happy-drabs</slash:department>
+<slash:section>technology</slash:section>
+<slash:comments>33</slash:comments>
+<slash:hit_parade>33,30,20,14,4,2,0</slash:hit_parade>
+<feedburner:origLink>http://tech.slashdot.org/story/10/07/02/020229/Qualcomm-Makes-Open-Source-3D-Snapdragon-Driver?from=rss</feedburner:origLink></item>
+
+<item rdf:about="http://yro.slashdot.org/story/10/07/02/0027237/RIAA-Calls-YouTube-Viacom-Decision-Bad-Public-Policy?from=rss">
+<title>RIAA Calls YouTube-Viacom Decision Bad Public Policy</title>
+<link>http://rss.slashdot.org/~r/Slashdot/slashdot/~3/I64-PhptgMg/RIAA-Calls-YouTube-Viacom-Decision-Bad-Public-Policy</link>
+<description>adeelarshad82 writes "The Recording Industry Association of America voiced its opposition to the recent decision in the YouTube-Viacom copyright infringement case, stating that 'the district court's dangerously expansive reading of the liability immunity provisions of the [Digital Millennium Copyright Act] upsets the careful balance struck within the law and is bad public policy.' Cary Sherman, RIAA president, also wrote in a blog post, 'It will actually discourage service providers from taking steps to minimize the illegal exchange of copyrighted works on their sites.'"&lt;p&gt;&lt;a href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fyro.slashdot.org%2Fstory%2F10%2F07%2F02%2F0027237%2FRIAA-Calls-YouTube-Viacom-Decision-Bad-Public-Policy" target="_blank" title="Share on Facebook"&gt;&lt;img src="http://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+   
+      &lt;a href="http://twitter.com/home?status=RIAA+Calls+YouTube-Viacom+Decision+Bad+Public+Policy%3A+http%3A%2F%2Fbit.ly%2Fdzt9Nx" target="_blank" title="Share on Twitter"&gt;&lt;img src="http://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="http://yro.slashdot.org/story/10/07/02/0027237/RIAA-Calls-YouTube-Viacom-Decision-Bad-Public-Policy?from=rss"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="http://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=1705744&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="http://feedads.g.doubleclick.net/~at/mCuArnUXugDYzn-7Ss3BFfStT1U/0/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~at/mCuArnUXugDYzn-7Ss3BFfStT1U/0/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://feedads.g.doubleclick.net/~at/mCuArnUXugDYzn-7Ss3BFfStT1U/1/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~at/mCuArnUXugDYzn-7Ss3BFfStT1U/1/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/I64-PhptgMg" height="1" width="1"/&gt;</description>
+<dc:creator>timothy</dc:creator>
+<dc:date>2010-07-02T00:44:00+00:00</dc:date>
+<dc:subject>court</dc:subject>
+<slash:department>manufacturing-outrage</slash:department>
+<slash:section>yro</slash:section>
+<slash:comments>154</slash:comments>
+<slash:hit_parade>154,150,110,96,39,26,18</slash:hit_parade>
+<feedburner:origLink>http://yro.slashdot.org/story/10/07/02/0027237/RIAA-Calls-YouTube-Viacom-Decision-Bad-Public-Policy?from=rss</feedburner:origLink></item>
+
+<item rdf:about="http://hardware.slashdot.org/story/10/07/01/2321230/The-Ignominious-Fall-of-Dell?from=rss">
+<title>The Ignominious Fall of Dell</title>
+<link>http://rss.slashdot.org/~r/Slashdot/slashdot/~3/-FJghOpuGP0/The-Ignominious-Fall-of-Dell</link>
+<description>snydeq writes "InfoWorld's Bill Snyder discusses the ignominious decline of Dell, one akin to that of Computer Associates, leaving the company forever tainted by scandal and a 'shocking breach of faith with customers.' Dell's pioneering business model and supply chain helped make desktop computing ubiquitous, affordable, and secure. But years of awful quality control and customer service have finally caught up to the company in a very public way that will do irreparable damage to the company for years to come. 'What we've learned about Dell recently doesn't qualify as an understandable mistake. Only a rotten company sells defective computers and lies about it.'"&lt;p&gt;&lt;a href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fhardware.slashdot.org%2Fstory%2F10%2F07%2F01%2F2321230%2FThe-Ignominious-Fall-of-Dell" target="_blank" title="Share on Facebook"&gt;&lt;img src="http://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+   
+      &lt;a href="http://twitter.com/home?status=The+Ignominious+Fall+of+Dell%3A+http%3A%2F%2Fbit.ly%2F9IKrxC" target="_blank" title="Share on Twitter"&gt;&lt;img src="http://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="http://hardware.slashdot.org/story/10/07/01/2321230/The-Ignominious-Fall-of-Dell?from=rss"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="http://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=1705696&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="http://feedads.g.doubleclick.net/~at/56WqReozNn2MGBcwb4QKwS_IkTY/0/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~at/56WqReozNn2MGBcwb4QKwS_IkTY/0/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://feedads.g.doubleclick.net/~at/56WqReozNn2MGBcwb4QKwS_IkTY/1/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~at/56WqReozNn2MGBcwb4QKwS_IkTY/1/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/-FJghOpuGP0" height="1" width="1"/&gt;</description>
+<dc:creator>timothy</dc:creator>
+<dc:date>2010-07-01T23:27:00+00:00</dc:date>
+<dc:subject>business</dc:subject>
+<slash:department>at-least-they-now-use-standard-power-supplies</slash:department>
+<slash:section>hardware</slash:section>
+<slash:comments>342</slash:comments>
+<slash:hit_parade>342,338,275,208,63,37,20</slash:hit_parade>
+<feedburner:origLink>http://hardware.slashdot.org/story/10/07/01/2321230/The-Ignominious-Fall-of-Dell?from=rss</feedburner:origLink></item>
+
+<item rdf:about="http://science.slashdot.org/story/10/07/01/2153202/Stop-the-Math-Presss-Presses-mdash-Knuth-Announces-iTex?from=rss">
+<title>Stop the Math Press's Presses &amp;mdash; Knuth Announces iTex</title>
+<link>http://rss.slashdot.org/~r/Slashdot/slashdot/~3/1W2rylfpaFY/Stop-the-Math-Presss-Presses-mdash-Knuth-Announces-iTex</link>
+<description>After Donald Knuth's anticipated "earthshaking announcement," it's safe to say that the world is still here. yowlanku writes "Christoper Adams tweeted live from TUG 2010 Conference that 'Donald Knuth's TeX successor will be named iTeX.' " Knuth "also stated that this successor of TeX will have features like 3-D printing, animation, stereographic sound."&lt;p&gt;&lt;a href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fscience.slashdot.org%2Fstory%2F10%2F07%2F01%2F2153202%2FStop-the-Math-Presss-Presses-mdash-Knuth-Announces-iTex" target="_blank" title="Share on Facebook"&gt;&lt;img src="http://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+   
+      &lt;a href="http://twitter.com/home?status=Stop+the+Math+Press's+Presses+%26mdash%3B+Knuth+Announces+iTex%3A+http%3A%2F%2Fbit.ly%2FaIOyfs" target="_blank" title="Share on Twitter"&gt;&lt;img src="http://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="http://science.slashdot.org/story/10/07/01/2153202/Stop-the-Math-Presss-Presses-mdash-Knuth-Announces-iTex?from=rss"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="http://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=1705630&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="http://feedads.g.doubleclick.net/~at/AjNE3NxzR3NplBSduZPBHRrLW1o/0/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~at/AjNE3NxzR3NplBSduZPBHRrLW1o/0/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://feedads.g.doubleclick.net/~at/AjNE3NxzR3NplBSduZPBHRrLW1o/1/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~at/AjNE3NxzR3NplBSduZPBHRrLW1o/1/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/1W2rylfpaFY" height="1" width="1"/&gt;</description>
+<dc:creator>timothy</dc:creator>
+<dc:date>2010-07-01T22:40:00+00:00</dc:date>
+<dc:subject>humor</dc:subject>
+<slash:department>now-with-more-highly-integrated-business-principles</slash:department>
+<slash:section>science</slash:section>
+<slash:comments>155</slash:comments>
+<slash:hit_parade>155,153,128,102,41,26,16</slash:hit_parade>
+<feedburner:origLink>http://science.slashdot.org/story/10/07/01/2153202/Stop-the-Math-Presss-Presses-mdash-Knuth-Announces-iTex?from=rss</feedburner:origLink></item>
+
+<item rdf:about="http://politics.slashdot.org/story/10/07/01/2130238/Do-Scientists-Understand-the-Public?from=rss">
+<title>Do Scientists Understand the Public?</title>
+<link>http://rss.slashdot.org/~r/Slashdot/slashdot/~3/ERIiZESERQQ/Do-Scientists-Understand-the-Public</link>
+<description>Mab_Mass writes "The American Academy of Arts &amp;amp; Sciences has an interesting article on the relationship between scientists and the public. [Here's the paper itself, as a PDF.] Rather than point the finger at an 'ignorant' public, this article chastises the scientists for a poor understanding of how to communicate with non-technical people. With a look at the issues of climate change, nuclear waste disposal, genetics, and the future of the Internet, the article provides examples of how the experts in these fields are failing to present their message in a way that encourages public discussion and support."&lt;p&gt;&lt;a href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fpolitics.slashdot.org%2Fstory%2F10%2F07%2F01%2F2130238%2FDo-Scientists-Understand-the-Public" target="_blank" title="Share on Facebook"&gt;&lt;img src="http://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+   
+      &lt;a href="http://twitter.com/home?status=Do+Scientists+Understand+the+Public%3F%3A+http%3A%2F%2Fbit.ly%2Fdejynn" target="_blank" title="Share on Twitter"&gt;&lt;img src="http://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="http://politics.slashdot.org/story/10/07/01/2130238/Do-Scientists-Understand-the-Public?from=rss"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="http://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=1705614&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="http://feedads.g.doubleclick.net/~at/uoUzMPdAvQoG-zdanFnUS8GaH6M/0/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~at/uoUzMPdAvQoG-zdanFnUS8GaH6M/0/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://feedads.g.doubleclick.net/~at/uoUzMPdAvQoG-zdanFnUS8GaH6M/1/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~at/uoUzMPdAvQoG-zdanFnUS8GaH6M/1/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/ERIiZESERQQ" height="1" width="1"/&gt;</description>
+<dc:creator>timothy</dc:creator>
+<dc:date>2010-07-01T21:56:00+00:00</dc:date>
+<dc:subject>themedia</dc:subject>
+<slash:department>to-a-high-degree-of-probability-no</slash:department>
+<slash:section>politics</slash:section>
+<slash:comments>354</slash:comments>
+<slash:hit_parade>354,352,300,225,53,24,15</slash:hit_parade>
+<feedburner:origLink>http://politics.slashdot.org/story/10/07/01/2130238/Do-Scientists-Understand-the-Public?from=rss</feedburner:origLink></item>
+
+<item rdf:about="http://tech.slashdot.org/story/10/07/01/2043245/Solar-Powered-Flight-Grounded-By-Equipment-Bug?from=rss">
+<title>Solar-Powered Flight Grounded By Equipment Bug</title>
+<link>http://rss.slashdot.org/~r/Slashdot/slashdot/~3/YxA85tTcTCI/Solar-Powered-Flight-Grounded-By-Equipment-Bug</link>
+<description>crimeandpunishment writes "If your plane is powered by the sun, it's tough to fly if your crew is in the dark. A 24-hour test flight for the world's first solar-powered round-the-world flight had to be postponed Thursday due to an equipment problem that would have left mission control out of touch with the technology on the experimental aircraft. When they're able to make this test flight, they hope by flying all day they'll be able to fully charge the batteries, then use the stored energy to power the plane all night."&lt;p&gt;&lt;a href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Ftech.slashdot.org%2Fstory%2F10%2F07%2F01%2F2043245%2FSolar-Powered-Flight-Grounded-By-Equipment-Bug" target="_blank" title="Share on Facebook"&gt;&lt;img src="http://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+   
+      &lt;a href="http://twitter.com/home?status=Solar-Powered+Flight+Grounded+By+Equipment+Bug%3A+http%3A%2F%2Fbit.ly%2Fb9EXaa" target="_blank" title="Share on Twitter"&gt;&lt;img src="http://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="http://tech.slashdot.org/story/10/07/01/2043245/Solar-Powered-Flight-Grounded-By-Equipment-Bug?from=rss"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="http://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=1705578&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="http://feedads.g.doubleclick.net/~at/sA8kdw7fjZd-4FhpZe_pUjeYdSM/0/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~at/sA8kdw7fjZd-4FhpZe_pUjeYdSM/0/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://feedads.g.doubleclick.net/~at/sA8kdw7fjZd-4FhpZe_pUjeYdSM/1/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~at/sA8kdw7fjZd-4FhpZe_pUjeYdSM/1/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/YxA85tTcTCI" height="1" width="1"/&gt;</description>
+<dc:creator>timothy</dc:creator>
+<dc:date>2010-07-01T21:34:00+00:00</dc:date>
+<dc:subject>communications</dc:subject>
+<slash:department>for-want-of-a-nail</slash:department>
+<slash:section>technology</slash:section>
+<slash:comments>24</slash:comments>
+<slash:hit_parade>24,24,18,12,1,0,0</slash:hit_parade>
+<feedburner:origLink>http://tech.slashdot.org/story/10/07/01/2043245/Solar-Powered-Flight-Grounded-By-Equipment-Bug?from=rss</feedburner:origLink></item>
+
+<item rdf:about="http://news.slashdot.org/story/10/07/01/208222/Zoho-Dont-Need-No-Stinking-PhD-Programmers?from=rss">
+<title>Zoho Don't Need No Stinking Ph.D. Programmers</title>
+<link>http://rss.slashdot.org/~r/Slashdot/slashdot/~3/Upyxf2DkzMA/Zoho-Dont-Need-No-Stinking-PhD-Programmers</link>
+<description>theodp writes "When it comes to tech academic credentials, Zoho CEO Sridhar Vembu has The Right Stuff: a Ph.D. in EE from Princeton. But Vembu has eschewed Google's Army-of-Ph.D.s approach to software development in favor of tapping into the ranks of high school grads who would not normally go to college for Zoho. Seeing his youngest brother succeed at programming without a college degree convinced Vembu that others could follow that example with the proper training and guidance. And studying the best employees in his own company led to another epiphany: 'What if the college degree itself is not really that useful?' thought Vembu. 'What if we took kids after high school, train them ourselves?'"&lt;p&gt;&lt;a href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fnews.slashdot.org%2Fstory%2F10%2F07%2F01%2F208222%2FZoho-Dont-Need-No-Stinking-PhD-Programmers" target="_blank" title="Share on Facebook"&gt;&lt;img src="http://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+   
+      &lt;a href="http://twitter.com/home?status=Zoho+Don't+Need+No+Stinking+Ph.D.+Programmers%3A+http%3A%2F%2Fbit.ly%2FcFxr4a" target="_blank" title="Share on Twitter"&gt;&lt;img src="http://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="http://news.slashdot.org/story/10/07/01/208222/Zoho-Dont-Need-No-Stinking-PhD-Programmers?from=rss"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="http://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=1705524&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="http://feedads.g.doubleclick.net/~at/tc15PG7QFHa6PUgCH47GbKL3sFo/0/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~at/tc15PG7QFHa6PUgCH47GbKL3sFo/0/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://feedads.g.doubleclick.net/~at/tc15PG7QFHa6PUgCH47GbKL3sFo/1/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~at/tc15PG7QFHa6PUgCH47GbKL3sFo/1/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/Upyxf2DkzMA" height="1" width="1"/&gt;</description>
+<dc:creator>timothy</dc:creator>
+<dc:date>2010-07-01T21:11:00+00:00</dc:date>
+<dc:subject>education</dc:subject>
+<slash:department>shoveling-it-on</slash:department>
+<slash:section>news</slash:section>
+<slash:comments>396</slash:comments>
+<slash:hit_parade>396,395,292,216,54,34,26</slash:hit_parade>
+<feedburner:origLink>http://news.slashdot.org/story/10/07/01/208222/Zoho-Dont-Need-No-Stinking-PhD-Programmers?from=rss</feedburner:origLink></item>
+
+<item rdf:about="http://ask.slashdot.org/story/10/07/01/2022247/Best-Format-For-OS-X-and-Linux-HDD?from=rss">
+<title>Best Format For OS X and Linux HDD?</title>
+<link>http://rss.slashdot.org/~r/Slashdot/slashdot/~3/gfGyecQQ5Xc/Best-Format-For-OS-X-and-Linux-HDD</link>
+<description>dogmatixpsych writes "I work in a neuroimaging laboratory. We mainly use OS X but we have computers running Linux and we have colleagues using Linux. Some of the work we do with Magnetic Resonance Images produces files that are upwards of 80GB. Due to HIPAA constraints, IT differences between departments, and the size of files we create, storage on local and portable media is the best option for transporting images between laboratories. What disk file system do Slashdot readers recommend for our external HDDs so that we can readily read and write to them using OS X and Linux? My default is to use HFS+ without journaling but I'm looking to see if there are better suggestions that are reliable, fast, and allow read/write access in OS X and Linux."&lt;p&gt;&lt;a href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fask.slashdot.org%2Fstory%2F10%2F07%2F01%2F2022247%2FBest-Format-For-OS-X-and-Linux-HDD" target="_blank" title="Share on Facebook"&gt;&lt;img src="http://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+   
+      &lt;a href="http://twitter.com/home?status=Best+Format+For+OS+X+and+Linux+HDD%3F%3A+http%3A%2F%2Fbit.ly%2Fb77ASV" target="_blank" title="Share on Twitter"&gt;&lt;img src="http://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="http://ask.slashdot.org/story/10/07/01/2022247/Best-Format-For-OS-X-and-Linux-HDD?from=rss"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="http://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=1705540&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="http://feedads.g.doubleclick.net/~at/Mbxi6cbT9iGgJcI0gt8zZKL1G5A/0/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~at/Mbxi6cbT9iGgJcI0gt8zZKL1G5A/0/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://feedads.g.doubleclick.net/~at/Mbxi6cbT9iGgJcI0gt8zZKL1G5A/1/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~at/Mbxi6cbT9iGgJcI0gt8zZKL1G5A/1/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/gfGyecQQ5Xc" height="1" width="1"/&gt;</description>
+<dc:creator>timothy</dc:creator>
+<dc:date>2010-07-01T20:51:00+00:00</dc:date>
+<dc:subject>storage</dc:subject>
+<slash:department>cross-the-beams</slash:department>
+<slash:section>askslashdot</slash:section>
+<slash:comments>203</slash:comments>
+<slash:hit_parade>203,201,163,129,32,17,13</slash:hit_parade>
+<feedburner:origLink>http://ask.slashdot.org/story/10/07/01/2022247/Best-Format-For-OS-X-and-Linux-HDD?from=rss</feedburner:origLink></item>
+
+<item rdf:about="http://tech.slashdot.org/story/10/07/01/1914215/HDBaseT-Supporters-Hope-To-Kiss-HDMI-Goodbye?from=rss">
+<title>HDBaseT Supporters Hope To Kiss HDMI Goodbye</title>
+<link>http://rss.slashdot.org/~r/Slashdot/slashdot/~3/-CKnEBcPSNI/HDBaseT-Supporters-Hope-To-Kiss-HDMI-Goodbye</link>
+<description>arcticstoat writes "HDMI's short-lived reign over the TV cable racks could soon be over, thanks to a new usurper that combines several connections into a standard Cat5e/6 network cable with an RJ-45 connector. Designed by a coalition of consumer electronics manufacturers called the HDBaseT Alliance, which includes Sony, Samsung, LG and Valens, HDBaseT promises to not only carry video and audio signals, but also provide a network connection, a USB signal and even electricity using a single cable. The Alliance predicts that we'll start seeing the first HDBaseT equipment creeping into the shops later this year, but says the bigger wave of adoption will occur later in 2011."&lt;p&gt;&lt;a href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Ftech.slashdot.org%2Fstory%2F10%2F07%2F01%2F1914215%2FHDBaseT-Supporters-Hope-To-Kiss-HDMI-Goodbye" target="_blank" title="Share on Facebook"&gt;&lt;img src="http://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+   
+      &lt;a href="http://twitter.com/home?status=HDBaseT+Supporters+Hope+To+Kiss+HDMI+Goodbye%3A+http%3A%2F%2Fbit.ly%2FbYNe2A" target="_blank" title="Share on Twitter"&gt;&lt;img src="http://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="http://tech.slashdot.org/story/10/07/01/1914215/HDBaseT-Supporters-Hope-To-Kiss-HDMI-Goodbye?from=rss"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="http://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=1705480&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="http://feedads.g.doubleclick.net/~at/CKw8fyaX3w-_rFpQBs8KvKnQARk/0/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~at/CKw8fyaX3w-_rFpQBs8KvKnQARk/0/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://feedads.g.doubleclick.net/~at/CKw8fyaX3w-_rFpQBs8KvKnQARk/1/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~at/CKw8fyaX3w-_rFpQBs8KvKnQARk/1/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/-CKnEBcPSNI" height="1" width="1"/&gt;</description>
+<dc:creator>timothy</dc:creator>
+<dc:date>2010-07-01T20:33:00+00:00</dc:date>
+<dc:subject>networking</dc:subject>
+<slash:department>rj-45-rocks</slash:department>
+<slash:section>technology</slash:section>
+<slash:comments>251</slash:comments>
+<slash:hit_parade>251,250,202,162,42,21,18</slash:hit_parade>
+<feedburner:origLink>http://tech.slashdot.org/story/10/07/01/1914215/HDBaseT-Supporters-Hope-To-Kiss-HDMI-Goodbye?from=rss</feedburner:origLink></item>
+
+<item rdf:about="http://tech.slashdot.org/story/10/07/01/1854230/Microsoft-Busting-Its-Own-BrowserOS-Myth?from=rss">
+<title>Microsoft Busting Its Own Browser+OS Myth</title>
+<link>http://rss.slashdot.org/~r/Slashdot/slashdot/~3/MPUVs-wo6E0/Microsoft-Busting-Its-Own-BrowserOS-Myth</link>
+<description>An anonymous reader writes "Longtime Microsoft watcher Mary Jo Foley used her Redmond magazine column this month to point out that after years of arguing that the browser is 'inextricably linked' to the operating system, the company's current push to get users to drop IE 6 for newer versions, plus IE's separate release schedule, are disproving its own argument. From the article: 'Microsoft has insisted that its browser is part of Windows, and, ironically, that's coming back to haunt the company. Customers can mix and match different versions of IE with different versions of Windows. ... But Microsoft has done very little to get this message out there. I'd argue this is because it makes plain the absurdity of the company's claims that IE is part of Windows.'"&lt;p&gt;&lt;a href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Ftech.slashdot.org%2Fstory%2F10%2F07%2F01%2F1854230%2FMicrosoft-Busting-Its-Own-BrowserOS-Myth" target="_blank" title="Share on Facebook"&gt;&lt;img src="http://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+   
+      &lt;a href="http://twitter.com/home?status=Microsoft+Busting+Its+Own+Browser%2BOS+Myth%3A+http%3A%2F%2Fbit.ly%2Fbmutot" target="_blank" title="Share on Twitter"&gt;&lt;img src="http://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="http://tech.slashdot.org/story/10/07/01/1854230/Microsoft-Busting-Its-Own-BrowserOS-Myth?from=rss"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="http://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=1705458&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="http://feedads.g.doubleclick.net/~at/B1XWQCPd3bmssAF29F36ka7R-M0/0/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~at/B1XWQCPd3bmssAF29F36ka7R-M0/0/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://feedads.g.doubleclick.net/~at/B1XWQCPd3bmssAF29F36ka7R-M0/1/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~at/B1XWQCPd3bmssAF29F36ka7R-M0/1/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/MPUVs-wo6E0" height="1" width="1"/&gt;</description>
+<dc:creator>timothy</dc:creator>
+<dc:date>2010-07-01T19:44:00+00:00</dc:date>
+<dc:subject>msie</dc:subject>
+<slash:department>in-sepa-rable</slash:department>
+<slash:section>technology</slash:section>
+<slash:comments>177</slash:comments>
+<slash:hit_parade>177,171,131,98,32,21,14</slash:hit_parade>
+<feedburner:origLink>http://tech.slashdot.org/story/10/07/01/1854230/Microsoft-Busting-Its-Own-BrowserOS-Myth?from=rss</feedburner:origLink></item>
+
+<item rdf:about="http://ask.slashdot.org/story/10/07/01/188241/What-To-Do-With-Old-80211b-Equipment?from=rss">
+<title>What To Do With Old 802.11b Equipment?</title>
+<link>http://rss.slashdot.org/~r/Slashdot/slashdot/~3/luFtbsRKoHU/What-To-Do-With-Old-80211b-Equipment</link>
+<description>CyberSlugGump writes "I am trying to declutter, and I have come across my cheap, off-brand, consumer-grade 802.11b wireless routers, PCMCIA cards, and USB adapters. The routers would still be good as 4-port 100Mb switches, and the other devices have at least 32-bit Windows XP drivers available. However, lack of security beyond WEP and the age of the equipment makes me wonder if it is worth any time putting it to use."&lt;p&gt;&lt;a href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fask.slashdot.org%2Fstory%2F10%2F07%2F01%2F188241%2FWhat-To-Do-With-Old-80211b-Equipment" target="_blank" title="Share on Facebook"&gt;&lt;img src="http://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+   
+      &lt;a href="http://twitter.com/home?status=What+To+Do+With+Old+802.11b+Equipment%3F%3A+http%3A%2F%2Fbit.ly%2FcjA1d4" target="_blank" title="Share on Twitter"&gt;&lt;img src="http://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="http://ask.slashdot.org/story/10/07/01/188241/What-To-Do-With-Old-80211b-Equipment?from=rss"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="http://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=1705398&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="http://feedads.g.doubleclick.net/~at/cJgMVBe1wymKyYsYExGB19dbkg8/0/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~at/cJgMVBe1wymKyYsYExGB19dbkg8/0/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://feedads.g.doubleclick.net/~at/cJgMVBe1wymKyYsYExGB19dbkg8/1/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~at/cJgMVBe1wymKyYsYExGB19dbkg8/1/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/luFtbsRKoHU" height="1" width="1"/&gt;</description>
+<dc:creator>timothy</dc:creator>
+<dc:date>2010-07-01T19:01:00+00:00</dc:date>
+<dc:subject>wireless</dc:subject>
+<slash:department>confuse-the-wardrivers</slash:department>
+<slash:section>askslashdot</slash:section>
+<slash:comments>221</slash:comments>
+<slash:hit_parade>221,217,169,124,41,23,13</slash:hit_parade>
+<feedburner:origLink>http://ask.slashdot.org/story/10/07/01/188241/What-To-Do-With-Old-80211b-Equipment?from=rss</feedburner:origLink></item>
+
+<item rdf:about="http://science.slashdot.org/story/10/07/01/1815204/Things-You-Drink-Can-Be-Used-To-Track-You?from=rss">
+<title>Things You Drink Can Be Used To Track You</title>
+<link>http://rss.slashdot.org/~r/Slashdot/slashdot/~3/XufgEEklmfU/Things-You-Drink-Can-Be-Used-To-Track-You</link>
+<description>sciencehabit writes with an intriguing story about the potential of figuring out where people have been by examining their hair: "That's because water molecules differ slightly in their isotope ratios depending on the minerals at their source. Researchers found that water samples from 33 cities across the United State could be reliably traced back to their origin based on their isotope ratios. And because the human body breaks down water's constituent atoms of hydrogen and oxygen to construct the proteins that make hair cells, those cells can preserve the record of a person's travels. Such information could help prosecutors place a suspect at the scene of a crime, or prove the innocence of the accused." Or frame someone by slipping them water from every country on the terrorist watchlist.&lt;p&gt;&lt;a href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fscience.slashdot.org%2Fstory%2F10%2F07%2F01%2F1815204%2FThings-You-Drink-Can-Be-Used-To-Track-You" target="_blank" title="Share on Facebook"&gt;&lt;img src="http://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+   
+      &lt;a href="http://twitter.com/home?status=Things+You+Drink+Can+Be+Used+To+Track+You%3A+http%3A%2F%2Fbit.ly%2FbDgPLZ" target="_blank" title="Share on Twitter"&gt;&lt;img src="http://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="http://science.slashdot.org/story/10/07/01/1815204/Things-You-Drink-Can-Be-Used-To-Track-You?from=rss"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="http://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=1705408&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="http://feedads.g.doubleclick.net/~at/018OSqSWE4ZSZjH5ltan8FZ2ytc/0/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~at/018OSqSWE4ZSZjH5ltan8FZ2ytc/0/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://feedads.g.doubleclick.net/~at/018OSqSWE4ZSZjH5ltan8FZ2ytc/1/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~at/018OSqSWE4ZSZjH5ltan8FZ2ytc/1/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/XufgEEklmfU" height="1" width="1"/&gt;</description>
+<dc:creator>timothy</dc:creator>
+<dc:date>2010-07-01T18:40:00+00:00</dc:date>
+<dc:subject>crime</dc:subject>
+<slash:department>don't-hate-me-because-I'm-a-beautiful-spy</slash:department>
+<slash:section>science</slash:section>
+<slash:comments>172</slash:comments>
+<slash:hit_parade>172,170,137,100,29,16,9</slash:hit_parade>
+<feedburner:origLink>http://science.slashdot.org/story/10/07/01/1815204/Things-You-Drink-Can-Be-Used-To-Track-You?from=rss</feedburner:origLink></item>
+
+<item rdf:about="http://science.slashdot.org/story/10/07/01/181215/NASA-Sets-Dates-For-Space-Shuttle-Finale?from=rss">
+<title>NASA Sets Dates For Space Shuttle Finale</title>
+<link>http://rss.slashdot.org/~r/Slashdot/slashdot/~3/0YyC7g-ennU/NASA-Sets-Dates-For-Space-Shuttle-Finale</link>
+<description>coondoggie writes "After some debate, NASA today said it has set the final two launch dates for its venerable space shuttles: Nov. 1 for space shuttle Discovery's STS-133 mission, and Feb. 26, 2011, for the liftoff of shuttle Endeavour's STS-134 mission. NASA said the dates needed to be adjusted because critical payload hardware for STS-133 will not be ready in time to support the planned Sept. 16 launch."&lt;p&gt;&lt;a href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fscience.slashdot.org%2Fstory%2F10%2F07%2F01%2F181215%2FNASA-Sets-Dates-For-Space-Shuttle-Finale" target="_blank" title="Share on Facebook"&gt;&lt;img src="http://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+   
+      &lt;a href="http://twitter.com/home?status=NASA+Sets+Dates+For+Space+Shuttle+Finale%3A+http%3A%2F%2Fbit.ly%2FbUM0gq" target="_blank" title="Share on Twitter"&gt;&lt;img src="http://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="http://science.slashdot.org/story/10/07/01/181215/NASA-Sets-Dates-For-Space-Shuttle-Finale?from=rss"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="http://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=1705390&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="http://feedads.g.doubleclick.net/~at/TB5TRNoL1PSM7ZJDo_-XUdMVcg0/0/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~at/TB5TRNoL1PSM7ZJDo_-XUdMVcg0/0/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://feedads.g.doubleclick.net/~at/TB5TRNoL1PSM7ZJDo_-XUdMVcg0/1/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~at/TB5TRNoL1PSM7ZJDo_-XUdMVcg0/1/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/0YyC7g-ennU" height="1" width="1"/&gt;</description>
+<dc:creator>timothy</dc:creator>
+<dc:date>2010-07-01T18:18:00+00:00</dc:date>
+<dc:subject>nasa</dc:subject>
+<slash:department>oh-but-they-always-stand-us-up</slash:department>
+<slash:section>science</slash:section>
+<slash:comments>51</slash:comments>
+<slash:hit_parade>51,50,41,33,11,4,1</slash:hit_parade>
+<feedburner:origLink>http://science.slashdot.org/story/10/07/01/181215/NASA-Sets-Dates-For-Space-Shuttle-Finale?from=rss</feedburner:origLink></item>
+
+<item rdf:about="http://yro.slashdot.org/story/10/07/01/1721224/Unique-ID-In-India-Causes-Fear-of-the-Beast?from=rss">
+<title>Unique ID In India Causes 'Fear of the Beast'</title>
+<link>http://rss.slashdot.org/~r/Slashdot/slashdot/~3/DZ3WQ_9kJkQ/Unique-ID-In-India-Causes-Fear-of-the-Beast</link>
+<description>bhagwad writes "India's attempts to tag everyone with an ID number has run into a roadblock is some Christian villages. Apparently the villagers fear they will be associated with the devil since according to the Bible, everyone having the 'mark of the beast' will go to hell. These people are not afraid of punishment. They relish this opportunity to prove their faith because the Bible also proclaims that they will be persecuted."&lt;p&gt;&lt;a href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fyro.slashdot.org%2Fstory%2F10%2F07%2F01%2F1721224%2FUnique-ID-In-India-Causes-Fear-of-the-Beast" target="_blank" title="Share on Facebook"&gt;&lt;img src="http://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+   
+      &lt;a href="http://twitter.com/home?status=Unique+ID+In+India+Causes+'Fear+of+the+Beast'%3A+http%3A%2F%2Fbit.ly%2FaSLDVe" target="_blank" title="Share on Twitter"&gt;&lt;img src="http://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="http://yro.slashdot.org/story/10/07/01/1721224/Unique-ID-In-India-Causes-Fear-of-the-Beast?from=rss"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="http://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=1705358&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="http://feedads.g.doubleclick.net/~at/2ayuPtefwYt-lhMaXFlxbUDeuuQ/0/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~at/2ayuPtefwYt-lhMaXFlxbUDeuuQ/0/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://feedads.g.doubleclick.net/~at/2ayuPtefwYt-lhMaXFlxbUDeuuQ/1/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~at/2ayuPtefwYt-lhMaXFlxbUDeuuQ/1/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/DZ3WQ_9kJkQ" height="1" width="1"/&gt;</description>
+<dc:creator>timothy</dc:creator>
+<dc:date>2010-07-01T17:32:00+00:00</dc:date>
+<dc:subject>government</dc:subject>
+<slash:department>seems-fair-enough</slash:department>
+<slash:section>yro</slash:section>
+<slash:comments>629</slash:comments>
+<slash:hit_parade>629,625,508,386,70,32,15</slash:hit_parade>
+<feedburner:origLink>http://yro.slashdot.org/story/10/07/01/1721224/Unique-ID-In-India-Causes-Fear-of-the-Beast?from=rss</feedburner:origLink></item>
+
+<textinput rdf:about="http://slashdot.org/search.pl">
+<title>Search Slashdot</title>
+<description>Search Slashdot stories</description>
+<name>query</name>
+<link>http://slashdot.org/search.pl</link>
+</textinput>
+
+</rdf:RDF>
