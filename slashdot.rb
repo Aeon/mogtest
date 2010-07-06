@@ -16,7 +16,7 @@ def build_tree(buffer)
     # get next tag, and its contents
     match = $open_tag_rx.match(buffer)
     if match
-      puts 'parsing ' + match[1]
+      # puts 'parsing ' + match[1]
       tag[:tag] = match[1]
       unless match[2].nil?
         tag[:attributes] = parse_attributes(match[2])
@@ -26,19 +26,19 @@ def build_tree(buffer)
       close_match = Regexp.new("</#{tag[:tag]}>").match(buffer)
       if close_match
         # close_match.pre_match.strip!
-        tag[:content] = get_branch(close_match.pre_match)
+        tag[:content] = build_tree(close_match.pre_match)
         branch << tag
         # close_match.post_match.strip!
         buffer = close_match.post_match
       else
-        debugger
+        # debugger
         raise Exception.new("Parse error: No closing tag for #{tag[:tag]} found!")
       end
     else
       # check for self-closing tags
       match = $self_tag_rx.match(buffer)
       if match
-        puts 'parsing ' + match[1]
+        # puts 'parsing ' + match[1]
         tag[:tag] = match[1]
         unless match[2].nil?
           tag[:attributes] = parse_attributes(match[2])
@@ -89,5 +89,5 @@ def parse_file(filename)
   return build_tree(buffer)
 end
 
-tree = parse_file('slashdot.rss')
-puts tree.inspect
+# tree = parse_file('slashdot.rss')
+# puts tree.inspect
