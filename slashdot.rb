@@ -1,9 +1,9 @@
-$open_tag_rx = Regexp.new("^\s*<([^\s/\?>]+)([^>]*[^\/])?>\s*")
-$self_tag_rx = Regexp.new("^\s*<([^\s/\?>]+)([^>]*)?/>\s*")
-$head_tag_rx = Regexp.new("^\s*<\?([^\s/>]+)([^>]*)?\?>\s*")
 
 class Feed
   @@tree = []
+  @open_tag_rx = Regexp.new("^\s*<([^\s/\?>]+)([^>]*[^\/])?>\s*")
+  @self_tag_rx = Regexp.new("^\s*<([^\s/\?>]+)([^>]*)?/>\s*")
+  @head_tag_rx = Regexp.new("^\s*<\?([^\s/>]+)([^>]*)?\?>\s*")
 
   def initialize(filename)
     buffer = ''
@@ -53,7 +53,7 @@ class Feed
       }
 
       # get next tag, and its contents
-      match = $open_tag_rx.match(buffer)
+      match = @open_tag_rx.match(buffer)
       if match
         # puts 'parsing ' + match[1]
         tag[:tag] = match[1]
@@ -75,7 +75,7 @@ class Feed
         end
       else
         # check for self-closing tags
-        match = $self_tag_rx.match(buffer)
+        match = @self_tag_rx.match(buffer)
         if match
           # puts 'parsing ' + match[1]
           tag[:tag] = match[1]
@@ -87,7 +87,7 @@ class Feed
           buffer = match.post_match
         else
           # check for head tag
-          match = $head_tag_rx.match(buffer)
+          match = @head_tag_rx.match(buffer)
           if match
             # match.post_match.strip!
             buffer = match.post_match
