@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
-# require 'rubygems'
-# require 'ruby-debug'
+require 'rubygems'
+require 'ruby-debug'
 # let's just grab the items info, assume we don't care about the rest of the feed metadata.
 
 grammar = {
@@ -49,7 +49,9 @@ def get_items(filename)
 end
 
 tree = {}
-$open_tag_rx = Regexp.new("<([^\s>]*)([^>]*)?>")
+$open_tag_rx = Regexp.new("^\s*<([^\s/\?>]+)([^>]*[^\/])?>")
+$self_tag_rx = Regexp.new("^\s*<([^\s/\?>]+)([^>]*)?/>")
+$head_tag_rx = Regexp.new("^\s*<\?([^\s/>]+)([^>]*)?\?>")
 
 def parse_tree(buffer, tree)
   until buffer.empty? do
@@ -103,14 +105,69 @@ def get_next_tag(buffer)
   end
 end
 
+def get_branch(buffer)
+  branch = []
+  until buffer.empty?
+    tag = {
+      :tag => nil,
+      :content => nil,
+      :attributes => nil
+    }
+    
+    # get next tag, and its contents
+    match = $open_tag_rx.match(buffer)
+    if match
+      puts 'parsing ' + match[1]
+      tag[:tag] = match[1]
+      unless match[2].nil?
+        tag[:attributes] = parse_attributes(match[2])
+      end
+      buffer = match.post_match
+      close_match = Regexp.new("</#{tag[:tag]}>").match(buffer)
+      if close_match
+        tag[:content] = get_branch(close_match.pre_match)
+        branch << tag
+        buffer = close_match.post_match
+      else
+        debugger
+        raise Exception.new("Parse error: No closing tag for #{tag[:tag]} found!")
+      end
+    else
+      # check for self-closing tags
+      match = $self_tag_rx.match(buffer)
+      if match
+        puts 'parsing ' + match[1]
+        tag[:tag] = match[1]
+        unless match[2].nil?
+          tag[:attributes] = parse_attributes(match[2])
+        end
+        branch << tag
+        buffer = match.post_match
+      else
+        # check for head tag
+        match = $head_tag_rx.match(buffer)
+        if match
+          buffer = match.post_match
+        else
+          # return buffer as text for content
+          return buffer
+        end
+      end
+    end
+  end
+  return branch
+end
+
 def parse_attributes(string)
   attributes = {}
   until string.empty?
     match = /\s*([^=]*)="([^"]*)"\s*/.match(string)
     if match
       attributes[match[1].intern] = match[2]
+      string = match.post_match
+    else
+      raise Exception.new("Parse error: invalid attribute #{string} found!")
     end
-    string = match.post_match
   end
   attributes
 end
@@ -132,6 +189,22 @@ def build_tree(buffer, tree)
   # find closing tag
   # run build_triee on buffer
 end
+
+def parse_file(filename)
+  buffer = ''
+
+  File.open(filename, 'r') do |feed|
+    buffer = feed.read
+  end
+  # puts buffer
+  
+  return get_branch(buffer)
+end
+
+foo = parse_file('slashdot.rss')
+foo.inspect
+# buffer = ''
+# File.open('slashdot.rss', 'r') do |feed| buffer = feed.read end
 
 # tree = build_tree(buffer, tree)
 
