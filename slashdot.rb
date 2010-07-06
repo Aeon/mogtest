@@ -49,9 +49,9 @@ def get_items(filename)
 end
 
 tree = {}
-$open_tag_rx = Regexp.new("^\s*<([^\s/\?>]+)([^>]*[^\/])?>")
-$self_tag_rx = Regexp.new("^\s*<([^\s/\?>]+)([^>]*)?/>")
-$head_tag_rx = Regexp.new("^\s*<\?([^\s/>]+)([^>]*)?\?>")
+$open_tag_rx = Regexp.new("^\s*<([^\s/\?>]+)([^>]*[^\/])?>\s*")
+$self_tag_rx = Regexp.new("^\s*<([^\s/\?>]+)([^>]*)?/>\s*")
+$head_tag_rx = Regexp.new("^\s*<\?([^\s/>]+)([^>]*)?\?>\s*")
 
 def parse_tree(buffer, tree)
   until buffer.empty? do
@@ -122,11 +122,14 @@ def get_branch(buffer)
       unless match[2].nil?
         tag[:attributes] = parse_attributes(match[2])
       end
+      # match.post_match.strip!
       buffer = match.post_match
       close_match = Regexp.new("</#{tag[:tag]}>").match(buffer)
       if close_match
+        # close_match.pre_match.strip!
         tag[:content] = get_branch(close_match.pre_match)
         branch << tag
+        # close_match.post_match.strip!
         buffer = close_match.post_match
       else
         debugger
@@ -142,15 +145,20 @@ def get_branch(buffer)
           tag[:attributes] = parse_attributes(match[2])
         end
         branch << tag
+        # match.post_match.strip!
         buffer = match.post_match
       else
         # check for head tag
         match = $head_tag_rx.match(buffer)
         if match
+          # match.post_match.strip!
           buffer = match.post_match
         else
           # return buffer as text for content
-          return buffer
+          buffer.strip!
+          if branch.empty? && !buffer.empty?
+            return buffer
+          end
         end
       end
     end
@@ -202,7 +210,7 @@ def parse_file(filename)
 end
 
 foo = parse_file('slashdot.rss')
-foo.inspect
+puts foo.inspect
 # buffer = ''
 # File.open('slashdot.rss', 'r') do |feed| buffer = feed.read end
 
