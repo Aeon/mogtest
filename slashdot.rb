@@ -11,11 +11,36 @@ class Feed
       File.open(filename, 'r') do |feed|
         buffer = feed.read
       end
-      @@tree = build_tree(buffer)
+      @@tree = Feed.build_tree(buffer)
       buffer = ''
-    rescue
+    rescue Exception => e
       puts "Could not open #{filename} for parsing; check that the file exists and is readable"
+      puts "Error: #{e.message}"
     end
+  end
+  
+  def find(path)
+    pieces = path.split('/')
+    return self.walk(@@tree[0][:content], pieces)
+  end
+  
+  def walk(branches, pieces)
+    results = []
+    current_path = pieces[0]
+    branches.each do |branch|
+      if branch[:tag] == current_path
+        if pieces.size == 1
+          results << branch
+        else
+          results << walk(branch[:content], pieces[1..-1])
+        end
+      end
+    end
+    return results
+  end
+
+  def tree
+    @@tree
   end
 
   def self.build_tree(buffer)
@@ -40,7 +65,7 @@ class Feed
         close_match = Regexp.new("</#{tag[:tag]}>").match(buffer)
         if close_match
           # close_match.pre_match.strip!
-          tag[:content] = build_tree(close_match.pre_match)
+          tag[:content] = Feed.build_tree(close_match.pre_match)
           branch << tag
           # close_match.post_match.strip!
           buffer = close_match.post_match
