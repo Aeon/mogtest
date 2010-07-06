@@ -5,6 +5,7 @@ class Feed
   @self_tag_rx = Regexp.new("^\s*<([^\s/\?>]+)([^>]*)?/>\s*")
   @head_tag_rx = Regexp.new("^\s*<\?([^\s/>]+)([^>]*)?\?>\s*")
 
+  # load file into buffer, parse it
   def initialize(filename)
     buffer = ''
     begin
@@ -18,12 +19,14 @@ class Feed
       puts "Error: #{e.message}"
     end
   end
-  
+
+  # find elements matching a simple path, and return them
   def find(path)
     pieces = path.split('/')
     return self.walk(@@tree[0][:content], pieces)
   end
-  
+
+  # walk the tree looking for elements matching a given path and return them
   def walk(branches, pieces)
     results = []
     current_path = pieces[0]
@@ -43,6 +46,7 @@ class Feed
     @@tree
   end
 
+  # go through the buffer looking for open tags; match open tag with closing tag; run build_tree on tag contents recursively
   def self.build_tree(buffer)
     branch = []
     until buffer.empty?
@@ -55,41 +59,33 @@ class Feed
       # get next tag, and its contents
       match = @open_tag_rx.match(buffer)
       if match
-        # puts 'parsing ' + match[1]
         tag[:tag] = match[1]
         unless match[2].nil?
           tag[:attributes] = parse_attributes(match[2])
         end
-        # match.post_match.strip!
         buffer = match.post_match
         close_match = Regexp.new("</#{tag[:tag]}>").match(buffer)
         if close_match
-          # close_match.pre_match.strip!
           tag[:content] = Feed.build_tree(close_match.pre_match)
           branch << tag
-          # close_match.post_match.strip!
           buffer = close_match.post_match
         else
-          # debugger
           raise Exception.new("Parse error: No closing tag for #{tag[:tag]} found!")
         end
       else
         # check for self-closing tags
         match = @self_tag_rx.match(buffer)
         if match
-          # puts 'parsing ' + match[1]
           tag[:tag] = match[1]
           unless match[2].nil?
             tag[:attributes] = parse_attributes(match[2])
           end
           branch << tag
-          # match.post_match.strip!
           buffer = match.post_match
         else
           # check for head tag
           match = @head_tag_rx.match(buffer)
           if match
-            # match.post_match.strip!
             buffer = match.post_match
           else
             # return buffer as text for content
@@ -104,6 +100,7 @@ class Feed
     return branch
   end
 
+  # parse tag attributes
   def self.parse_attributes(string)
     attributes = {}
     until string.empty?
