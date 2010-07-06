@@ -2,8 +2,8 @@
 
 require 'pp'
 require 'slashdot.rb'
-require 'rubygems'
-require 'ruby-debug'
+# require 'rubygems'
+# require 'ruby-debug'
 
 slashdot = Feed.new('slashdot.rss')
 

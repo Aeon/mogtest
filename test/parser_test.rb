@@ -55,7 +55,6 @@ class ParserTest < Test::Unit::TestCase
     assert(branch[0][:content][1][:attributes] == {:value => 'foo', :link => 'bar://'}, "tag attributes incorrect")
   end
   
-  
   def test_parse_missing_closing_tag
     str = '<bar><item>Description<item value="foo" link="bar://"/><item>Description</item></bar>'
     assert_raise Exception do
