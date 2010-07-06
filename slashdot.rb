@@ -1,5 +1,3 @@
-#!/usr/bin/env ruby
-
 $open_tag_rx = Regexp.new("^\s*<([^\s/\?>]+)([^>]*[^\/])?>\s*")
 $self_tag_rx = Regexp.new("^\s*<([^\s/\?>]+)([^>]*)?/>\s*")
 $head_tag_rx = Regexp.new("^\s*<\?([^\s/>]+)([^>]*)?\?>\s*")
@@ -88,6 +86,3 @@ def parse_file(filename)
   
   return build_tree(buffer)
 end
-
-# tree = parse_file('slashdot.rss')
-# puts tree.inspect
